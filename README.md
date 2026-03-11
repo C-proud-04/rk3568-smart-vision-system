@@ -19,20 +19,20 @@ v4l2-ctl -d /dev/video9 -c exposure_absolute=2600   # 设置为手动模式后�
 - github下载SDL库源文件
 - 交叉编译流程：
 ```bash
-cd SDL-main
-# 找交叉编译工具链的根目录
-aarch64-rockchip1031-linux-gnu-gcc -print-sysroot
-# 创建build文件夹
-mkdir build && cd build
-# 执行cmake
-cmake .. \
-    -DCMAKE_SYSTEM_NAME=Linux \
-    -DCMAKE_SYSTEM_PROCESSOR=aarch64 \
-    -DCMAKE_C_COMPILER=aarch64-rockchip1031-linux-gnu-gcc \
-    -DCMAKE_CXX_COMPILER=aarch64-rockchip1031-linux-gnu-g++ \
-    -DCMAKE_INSTALL_PREFIX=/home/alientek/ATOMPI-CA1_SDK_v1.2/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc \
-    -DCMAKE_FIND_ROOT_PATH=/home/alientek/ATOMPI-CA1_SDK_v1.2/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc \
-    -DSDL_UNIX_CONSOLE_BUILD=ON # 仅是为了跳过X11/Wayland
+# 下载SDL其他版本的源码，比如SDL-release-2.30.8
+# 创建一个build文件夹
+mkdir build
+# --host不是编译器地址，理解为交叉编译器的版本和厂商
+# --prefix是install文件夹的地址，最好用绝对路径
+../configure --host=aarch64-rockchip1031-linux-gnu --prefix=/home/alientek/czh/SDL-release-2.30.8/install
 make -j8
-sudo make install
+make install
+# 查看install文件夹是否有相关文件
+cd ../install
+# 应该有相关libSDL-x.x.so等文件
+ls -la lib/
+# 设置环境变量
+export SDL_INSTALL_DIR="/home/alientek/czh/SDL-release-2.30.8/install"
+# 编译命令
+aarch64-rockchip1031-linux-gnu-gcc -I${SDL_INSTALL_DIR}/include xxx.c -o xxx -L${SDL_INSTALL_DIR}/lib -lSDL2
 ```
