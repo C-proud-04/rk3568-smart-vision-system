@@ -1,0 +1,97 @@
+[1;33mW[0m [1;33m__init__: rknn-toolkit2 version: 1.4.0-22dcfef4[0m
+I Save log info to: log.txt
+I base_optimize ...
+I base_optimize done.
+I 
+I fold_constant ...
+I fold_constant done.
+I 
+I correct_ops ...
+I correct_ops done.
+I 
+I fuse_ops ...
+I fuse_ops results:
+I     replace_exswish: remove node = ['/model.0/act/Sigmoid', '/model.0/act/Mul'], add node = ['/model.0/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.1/act/Sigmoid', '/model.1/act/Mul'], add node = ['/model.1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.2/cv1/act/Sigmoid', '/model.2/cv1/act/Mul'], add node = ['/model.2/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.2/m/m.0/cv1/act/Sigmoid', '/model.2/m/m.0/cv1/act/Mul'], add node = ['/model.2/m/m.0/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.2/m/m.0/cv2/act/Sigmoid', '/model.2/m/m.0/cv2/act/Mul'], add node = ['/model.2/m/m.0/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.2/cv2/act/Sigmoid', '/model.2/cv2/act/Mul'], add node = ['/model.2/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.2/cv3/act/Sigmoid', '/model.2/cv3/act/Mul'], add node = ['/model.2/cv3/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.3/act/Sigmoid', '/model.3/act/Mul'], add node = ['/model.3/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.4/cv1/act/Sigmoid', '/model.4/cv1/act/Mul'], add node = ['/model.4/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.4/m/m.0/cv1/act/Sigmoid', '/model.4/m/m.0/cv1/act/Mul'], add node = ['/model.4/m/m.0/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.4/m/m.0/cv2/act/Sigmoid', '/model.4/m/m.0/cv2/act/Mul'], add node = ['/model.4/m/m.0/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.4/m/m.1/cv1/act/Sigmoid', '/model.4/m/m.1/cv1/act/Mul'], add node = ['/model.4/m/m.1/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.4/m/m.1/cv2/act/Sigmoid', '/model.4/m/m.1/cv2/act/Mul'], add node = ['/model.4/m/m.1/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.4/cv2/act/Sigmoid', '/model.4/cv2/act/Mul'], add node = ['/model.4/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.4/cv3/act/Sigmoid', '/model.4/cv3/act/Mul'], add node = ['/model.4/cv3/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.5/act/Sigmoid', '/model.5/act/Mul'], add node = ['/model.5/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.6/cv1/act/Sigmoid', '/model.6/cv1/act/Mul'], add node = ['/model.6/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.6/m/m.0/cv1/act/Sigmoid', '/model.6/m/m.0/cv1/act/Mul'], add node = ['/model.6/m/m.0/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.6/m/m.0/cv2/act/Sigmoid', '/model.6/m/m.0/cv2/act/Mul'], add node = ['/model.6/m/m.0/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.6/m/m.1/cv1/act/Sigmoid', '/model.6/m/m.1/cv1/act/Mul'], add node = ['/model.6/m/m.1/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.6/m/m.1/cv2/act/Sigmoid', '/model.6/m/m.1/cv2/act/Mul'], add node = ['/model.6/m/m.1/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.6/m/m.2/cv1/act/Sigmoid', '/model.6/m/m.2/cv1/act/Mul'], add node = ['/model.6/m/m.2/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.6/m/m.2/cv2/act/Sigmoid', '/model.6/m/m.2/cv2/act/Mul'], add node = ['/model.6/m/m.2/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.6/cv2/act/Sigmoid', '/model.6/cv2/act/Mul'], add node = ['/model.6/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.6/cv3/act/Sigmoid', '/model.6/cv3/act/Mul'], add node = ['/model.6/cv3/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.7/act/Sigmoid', '/model.7/act/Mul'], add node = ['/model.7/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.8/cv1/act/Sigmoid', '/model.8/cv1/act/Mul'], add node = ['/model.8/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.8/m/m.0/cv1/act/Sigmoid', '/model.8/m/m.0/cv1/act/Mul'], add node = ['/model.8/m/m.0/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.8/m/m.0/cv2/act/Sigmoid', '/model.8/m/m.0/cv2/act/Mul'], add node = ['/model.8/m/m.0/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.8/cv2/act/Sigmoid', '/model.8/cv2/act/Mul'], add node = ['/model.8/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.8/cv3/act/Sigmoid', '/model.8/cv3/act/Mul'], add node = ['/model.8/cv3/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.9/cv1/act/Sigmoid', '/model.9/cv1/act/Mul'], add node = ['/model.9/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.9/cv2/act/Sigmoid', '/model.9/cv2/act/Mul'], add node = ['/model.9/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.10/act/Sigmoid', '/model.10/act/Mul'], add node = ['/model.10/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.13/cv1/act/Sigmoid', '/model.13/cv1/act/Mul'], add node = ['/model.13/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.13/m/m.0/cv1/act/Sigmoid', '/model.13/m/m.0/cv1/act/Mul'], add node = ['/model.13/m/m.0/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.13/m/m.0/cv2/act/Sigmoid', '/model.13/m/m.0/cv2/act/Mul'], add node = ['/model.13/m/m.0/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.13/cv3/act/Sigmoid', '/model.13/cv3/act/Mul'], add node = ['/model.13/cv3/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.14/act/Sigmoid', '/model.14/act/Mul'], add node = ['/model.14/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.17/cv1/act/Sigmoid', '/model.17/cv1/act/Mul'], add node = ['/model.17/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.17/m/m.0/cv1/act/Sigmoid', '/model.17/m/m.0/cv1/act/Mul'], add node = ['/model.17/m/m.0/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.17/m/m.0/cv2/act/Sigmoid', '/model.17/m/m.0/cv2/act/Mul'], add node = ['/model.17/m/m.0/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.17/cv3/act/Sigmoid', '/model.17/cv3/act/Mul'], add node = ['/model.17/cv3/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.18/act/Sigmoid', '/model.18/act/Mul'], add node = ['/model.18/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.20/cv1/act/Sigmoid', '/model.20/cv1/act/Mul'], add node = ['/model.20/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.20/m/m.0/cv1/act/Sigmoid', '/model.20/m/m.0/cv1/act/Mul'], add node = ['/model.20/m/m.0/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.20/m/m.0/cv2/act/Sigmoid', '/model.20/m/m.0/cv2/act/Mul'], add node = ['/model.20/m/m.0/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.20/cv3/act/Sigmoid', '/model.20/cv3/act/Mul'], add node = ['/model.20/cv3/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.21/act/Sigmoid', '/model.21/act/Mul'], add node = ['/model.21/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.23/cv1/act/Sigmoid', '/model.23/cv1/act/Mul'], add node = ['/model.23/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.23/m/m.0/cv1/act/Sigmoid', '/model.23/m/m.0/cv1/act/Mul'], add node = ['/model.23/m/m.0/cv1/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.23/m/m.0/cv2/act/Sigmoid', '/model.23/m/m.0/cv2/act/Mul'], add node = ['/model.23/m/m.0/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.23/cv3/act/Sigmoid', '/model.23/cv3/act/Mul'], add node = ['/model.23/cv3/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.13/cv2/act/Sigmoid', '/model.13/cv2/act/Mul'], add node = ['/model.13/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.17/cv2/act/Sigmoid', '/model.17/cv2/act/Mul'], add node = ['/model.17/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.20/cv2/act/Sigmoid', '/model.20/cv2/act/Mul'], add node = ['/model.20/cv2/act/Sigmoid_2swish']
+I     replace_exswish: remove node = ['/model.23/cv2/act/Sigmoid', '/model.23/cv2/act/Mul'], add node = ['/model.23/cv2/act/Sigmoid_2swish']
+I     convert_resize_to_deconv: remove node = ['/model.11/Resize'], add node = ['/model.11/Resize_2deconv']
+I     convert_resize_to_deconv: remove node = ['/model.15/Resize'], add node = ['/model.15/Resize_2deconv']
+I     fold_constant ...
+I     fold_constant done.
+I fuse_ops done.
+I 
+I sparse_weight ...
+I sparse_weight done.
+I 
+I 
+I quant_optimizer ...
+I quant_optimizer results:
+I     adjust_tanh_sigmoid: ['/model.24/Sigmoid', '/model.24/Sigmoid_1', '/model.24/Sigmoid_2']
+I     adjust_no_change_node: ['/model.9/m_2/MaxPool', '/model.9/m_1/MaxPool', '/model.9/m/MaxPool']
+I quant_optimizer done.
+I 
+[1;33mW[0m [1;33mbuild: The default input dtype of 'images' is changed from 'float32' to 'int8' in rknn model for performance!
+                      Please take care of this change when deploy rknn model with Runtime API![0m
+[1;33mW[0m [1;33mbuild: The default output dtype of 'output0' is changed from 'float32' to 'int8' in rknn model for performance!
+                      Please take care of this change when deploy rknn model with Runtime API![0m
+[1;33mW[0m [1;33mbuild: The default output dtype of '332' is changed from 'float32' to 'int8' in rknn model for performance!
+                      Please take care of this change when deploy rknn model with Runtime API![0m
+[1;33mW[0m [1;33mbuild: The default output dtype of '334' is changed from 'float32' to 'int8' in rknn model for performance!
+                      Please take care of this change when deploy rknn model with Runtime API![0m
+I rknn building ...
+I rknn buiding done
+[1;33mW[0m [1;33minit_runtime: Target is None, use simulator![0m

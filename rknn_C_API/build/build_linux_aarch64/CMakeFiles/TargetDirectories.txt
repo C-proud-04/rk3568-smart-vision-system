@@ -1,0 +1,8 @@
+/home/alientek/czh/rk-vision-system/rk3568-smart-vision-system/rknn_C_API/build/build_linux_aarch64/CMakeFiles/install/strip.dir
+/home/alientek/czh/rk-vision-system/rk3568-smart-vision-system/rknn_C_API/build/build_linux_aarch64/CMakeFiles/install/local.dir
+/home/alientek/czh/rk-vision-system/rk3568-smart-vision-system/rknn_C_API/build/build_linux_aarch64/CMakeFiles/install.dir
+/home/alientek/czh/rk-vision-system/rk3568-smart-vision-system/rknn_C_API/build/build_linux_aarch64/CMakeFiles/list_install_components.dir
+/home/alientek/czh/rk-vision-system/rk3568-smart-vision-system/rknn_C_API/build/build_linux_aarch64/CMakeFiles/rebuild_cache.dir
+/home/alientek/czh/rk-vision-system/rk3568-smart-vision-system/rknn_C_API/build/build_linux_aarch64/CMakeFiles/edit_cache.dir
+/home/alientek/czh/rk-vision-system/rk3568-smart-vision-system/rknn_C_API/build/build_linux_aarch64/CMakeFiles/rknn_yolov5_video_demo.dir
+/home/alientek/czh/rk-vision-system/rk3568-smart-vision-system/rknn_C_API/build/build_linux_aarch64/CMakeFiles/rknn_yolov5_demo.dir
